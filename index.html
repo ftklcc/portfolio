@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="tr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- FontAwesomeCDN -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+			integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<title>Fuat Kılıç Portfolyo</title>
+		<!-- <link rel="stylesheet" href="./assets/css/reset.css" /> -->
+		<link rel="stylesheet" href="./assets/css/style.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<!---------- SİDEBAR START ---------->
+
+			<aside class="side__bar">
+				<header class="profile__info">
+					<div class="img__wrapper">
+						<img src="./assets/img/2.jpeg" alt="Profil Fotoğrafı" />
+					</div>
+					<h1>Fuat Kılıç</h1>
+					<p class="title">Front-end Developer</p>
+				</header>
+
+				<nav class="social__nav">
+					<ul class="social__links">
+						<li class="social__link-item">
+							<a href="https://github.com/ftklcc" aria-label="Github" target="_blank" rel="noopener noreferrer">
+								<i class="fa-brands fa-github"></i>
+							</a>
+						</li>
+						<li class="social__link-item">
+							<a
+								href="https://www.linkedin.com/in/fuat-k%C4%B1l%C4%B1%C3%A7-06256725a/"
+								aria-label="Linkedin"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
+								<i class="fa-brands fa-linkedin"></i>
+							</a>
+						</li>
+						<li class="social__link-item">
+							<a href="mailto:ftklc@outlook.com" aria-label="Whatsapp" target="_blank" rel="noopener noreferrer">
+								<i class="fa-solid fa-envelope"></i>
+							</a>
+						</li>
+					</ul>
+				</nav>
+
+				<nav class="main__nav">
+					<ul class="tab__buttons">
+						<!-- <li><button class="tab_button active" data-id="home">Anasayfa</button></li> -->
+						<li><button class="tab_button" data-id="about">Hakkımda</button></li>
+						<li><button class="tab_button" data-id="projects">Projeler</button></li>
+						<li><button class="tab_button" data-id="experience">Deneyimlerim</button></li>
+						<li><button class="tab_button" data-id="competencies">Yetkinlikler</button></li>
+						<li><button class="tab_button" data-id="contact">İletişim</button></li>
+					</ul>
+				</nav>
+			</aside>
+			<!---------- MAİN START ---------->
+			<!----- HOME ----->
+			<main class="main">
+				<!-- <section id="home" class="main__content show">
+					<div class="home__wrapper">
+						<article class="home__title">
+							<p>Merhaba Ben</p>
+							<h2>Fuat Kılıç</h2>
+							<h3>
+								Responsive ve kullanıcı odaklı <br />
+								Web arayüzleri geliştiren bir
+							</h3>
+							<span>Front-End Developer’ım.</span>
+						</article>
+						<article class="home__img">
+							<img src="./assets/img/2.jpeg" alt="Profil Fotoğrafı" />
+						</article>
+					</div>
+				</section> -->
+				<!----- ABOUT ----->
+				<section id="about" class="main__content">
+					<h2>HAKKIMDA</h2>
+					<ul class="about__list">
+						<h3>Teknik</h3>
+						<li>Flexbox ve CSS Grid kullanarak mobile-first, erişilebilir (accessibility) ve cross-browser uyumlu arayüzler geliştiriyorum.</li>
+						<li>
+							Fetch API, Async/Await ve Promise yapıları ile REST API’lerden veri çekilen, kullanıcı etkileşimli dinamik frontend uygulamaları
+							oluşturuyorum.
+						</li>
+						<li>Figma tasarımlarını Tailwind CSS veya Bootstrap ile hızlı, temiz ve sürdürülebilir arayüzlere dönüştürüyorum</li>
+						<li>LocalStorage ve API entegrasyonlarıyla temel frontend veri akışlarını yönetebiliyorum.</li>
+						<li>Kariyer dönüşüm sürecimde, yeni teknolojileri hızlı öğrenip projelere uygulama konusunda güçlü bir yetkinlik kazandım.</li>
+						<h3>Kişisel Bilgiler</h3>
+						<li>Askerlik yapıldı</li>
+						<li>Sürücü Belgesi B</li>
+						<li>Doğum Tarihi : 10.03.1994</li>
+						<li>İstanbul/Avcılar</li>
+					</ul>
+				</section>
+				<!----- PROJECTS ----->
+				<section id="projects" class="main__content show">
+					<h2>Projeler</h2>
+
+					<ul class="projets__card-wrapper">
+						<!-- CARD START -->
+						<!-- <li class="project__card">
+							<div class="project__img-wrapper">
+								<img src="./assets/img/projects/pokemon.jpg" alt="project name" />
+							</div>
+							<div class="card__info">
+								<h3>Pokemon api</h3>
+								<div class="card__actions">
+									<a href="#">github</a>
+									<a href="#">Previews</a>
+								</div>
+								<div class="card__technology">
+									<span class="html">HTML</span>
+									<span class="css">CSS</span>
+									<span class="js">JS</span>
+								</div>
+							</div>
+						</li> -->
+						<!-- CARD END -->
+
+						<!-- CARD END -->
+					</ul>
+				</section>
+				<!----- EXPERİNCE ----->
+				<section id="experience" class="main__content">
+					<h2>Deneyimlerim</h2>
+
+					<article class="experience__wrapper">
+						<!-- Work card START -->
+						<div class="work__card">
+							<h3>Müşteri Hizmetleri Uzmanı</h3>
+							<span>OYUNEKS | Ağustos 2023 - Nisan 2025</span>
+							<p>E-ticaret operasyonlarında CRM ve ticket sistemleri ile teknik destek süreçlerini yönettim</p>
+							<p>Kullanıcı bildirimleri üzerinden sistem hatalarının (bug) tespitini yaptım</p>
+							<p>Yazılım ve ilgili ekiplerle koordineli şekilde SLA standartlarında çözüm süreçleri yürüttüm</p>
+						</div>
+						<div class="work__card">
+							<h3>E-Ticaret Operasyon Elemanı</h3>
+							<span>Aison | Ocak 2023 - Nisan 2023</span>
+							<p>Ödeme ve teslimat süreçlerine yönelik temel sorunların çözümü</p>
+							<p>Canlı destek ve müşteri taleplerinin yönetimi</p>
+							<p>Ürün ve sipariş süreçlerinin takibi</p>
+						</div>
+						<div class="work__card">
+							<h3>Operasyon Destek</h3>
+							<span>LCW | Şubat 2020 - Ekim 2022 </span>
+							<p>Ürün akışı, stok takibi ve sistem kayıtlarının kontrolü</p>
+							<p>Üretim ve depo süreçlerine operasyonel destek</p>
+							<p>Temel raporlama ve ekipler arası koordinasyon</p>
+						</div>
+						<!-- Work card END -->
+					</article>
+				</section>
+				<!----- COMPETENCİES ----->
+				<section id="competencies" class="main__content">
+					<h2>Yetkinlikler</h2>
+					<article class="languages">
+						<img src="./assets/img/icon/html.png" alt="language-icon" />
+						<img src="./assets/img/icon/css.png" alt="language-icon" />
+						<img src="./assets/img/icon/js.png" alt="language-icon" />
+						<img src="./assets/img/icon/bootstrap.png" alt="language-icon" />
+						<img src="./assets/img/icon/tailwind.ico" alt="language-icon" />
+					</article>
+					<ul class="competencies__info">
+						<li>Semantic Markup</li>
+						<li>Accessibility</li>
+						<li>Responsive Design</li>
+						<li>Pixel Perfect</li>
+						<li>Cross-Browser</li>
+						<li>JS ES6+, DOM Manipulation</li>
+						<li>Modular JS</li>
+						<li>UI/UX</li>
+						<li>Flexbox, Grid</li>
+						<li>Tailwind CSS</li>
+						<li>Bootstrap</li>
+					</ul>
+					<div class="line"></div>
+					<ul class="competencies__info">
+						<li>İletişim ve takım çalışması</li>
+						<li>SLA düzeyinde problem çözme</li>
+						<li>Müşteri odaklı yaklaşım</li>
+						<li>Hızlı adaptasyon ve öğrenme</li>
+						<li>Sorumluluk bilinci</li>
+						<li>Geri bildirime açıklık</li>
+					</ul>
+				</section>
+				<!----- CONTACT ----->
+				<section id="contact" class="main__content">
+					<h2>İletişim</h2>
+					<ul class="contact__links">
+						<a href="https://wa.me/905345756092?text=Merhaba!" target="_blank">whatsapp</a>
+						<a href="https://github.com/ftklcc" aria-label="Github" target="_blank" rel="noopener noreferrer">github</a>
+						<a href="mailto:ftklc@outlook.com" aria-label="Whatsapp" rel="noopener noreferrer">e-posta</a>
+						<a href="https://www.linkedin.com/in/fuat-k%C4%B1l%C4%B1%C3%A7-06256725a/" aria-label="Linkedin" target="_blank">LinkedIn </a>
+						<a href="./assets/cv/Fuat-CV.pdf" aria-label="Linkedin" target="_blank">CV </a>
+					</ul>
+				</section>
+			</main>
+			<!---------- MAİN END ---------->
+		</div>
+		<!-- <script src="./assets/js/projects.js"></script> -->
+		<script type="module" src="./assets/js/main.js"></script>
+	</body>
+</html>

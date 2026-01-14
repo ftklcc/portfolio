@@ -1,0 +1,65 @@
+@media screen and (max-width:767px) {
+    .profile__info h1 {
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+
+    .profile__info .title {
+        font-size: 1.5rem;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    .profile__info img {
+        max-width: 120px;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .profile__info h1 {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
+
+    .profile__info .title {
+        font-size: 1.2rem;
+        letter-spacing: 0;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    .profile__info img {
+        max-width: 70px;
+    }
+
+    .social__links .social__link-item a {
+        width: 30px;
+        height: 30px;
+    }
+
+    .social__links .social__link-item a i {
+        font-size: 1.5rem;
+    }
+
+    .tab__buttons .tab_button {
+        font-size: 1.3rem;
+        letter-spacing: 0.2px;
+    }
+
+    #projects .projets__card-wrapper {
+        gap: 1rem;
+    }
+
+    #projects .project__card {
+        flex-direction: column;
+    }
+
+    #projects .card__info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+
+}
