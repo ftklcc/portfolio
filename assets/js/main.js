@@ -37,7 +37,7 @@ const showCard = () => {
 							<div class="card__info">
 								<h3>${item.name}</h3>
 								<div class="card__actions">
-									${item.actions.map(el => `<a href="${el.link}" target="_blank">${el.name}</a>`)}
+									${item.actions.map(el => `<a href="${el.link}" target="_blank">${el.name}</a>`).join("")}
 								</div>
 								<div class="card__technology">
 									${item.technology.map(el => `<span class="${el}">${el}</span>`).join("")}
